@@ -1,0 +1,2 @@
+# Forge.Logging
+Abstract logging
