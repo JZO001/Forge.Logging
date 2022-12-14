@@ -1,2 +1,2 @@
-# Forge.Logging
+# Forge.Logging.Abstraction
 Abstract logging

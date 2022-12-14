@@ -1,4 +1,4 @@
-﻿namespace Forge.Logging
+﻿namespace Forge.Logging.Abstraction
 {
 
     /// <summary>Defines logging severity levels.</summary>

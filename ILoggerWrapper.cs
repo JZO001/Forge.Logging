@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Forge.Logging
+namespace Forge.Logging.Abstraction
 {
 
     /// <summary>Wrapper interface for logger implementation</summary>

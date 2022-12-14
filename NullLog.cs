@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Forge.Logging
+namespace Forge.Logging.Abstraction
 {
 
     /// <summary>Empty log. Default implementation, do nothing.</summary>

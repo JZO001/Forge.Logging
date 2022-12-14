@@ -15,17 +15,17 @@
 		<Description>Abstract logging</Description>
 		<Product>Forge: reference, practice and patterns implementations and helper(s)</Product>
 		<Company>Forge Project Contributor(s)</Company>
-		<PackageId>Forge.Logging</PackageId>
+		<PackageId>Forge.Logging.Abstraction</PackageId>
 		<Authors>Zoltan Juhasz</Authors>
-		<Title>Forge Logging</Title>
+		<Title>Forge Logging Abstraction</Title>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>..\.Documents\Forge.pfx</AssemblyOriginatorKeyFile>
 		<ProjectGuid>{0341203E-DBF8-44E9-BEAD-373B0126903B}</ProjectGuid>
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<DocumentationFile>Forge.Logging.xml</DocumentationFile>
-		<RepositoryUrl>https://github.com/JZO001/Forge.Logging</RepositoryUrl>
+		<DocumentationFile>Forge.Logging.Abstraction.xml</DocumentationFile>
+		<RepositoryUrl>https://github.com/JZO001/Forge.Logging.Abstraction</RepositoryUrl>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(TargetFramework)' != 'net40' and '$(TargetFramework)' != 'netstandard2.0'">
@@ -37,7 +37,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Remove="Forge.Logging.xml" />
+		<None Remove="Forge.Logging.Abstraction.xml" />
 	</ItemGroup>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">

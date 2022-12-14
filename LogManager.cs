@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Forge.Logging
+namespace Forge.Logging.Abstraction
 {
 
     /// <summary>This class is used by client applications to request logger instances.</summary>

@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace Forge.Logging
+namespace Forge.Logging.Abstraction
 {
 
     /// <summary>Empty logger. Default implementation, do nothing.</summary>
-    /// <seealso cref="Forge.Logging.ILoggerWrapper" />
+    /// <seealso cref="ILoggerWrapper" />
     public sealed class NullLogger : ILoggerWrapper
     {
 

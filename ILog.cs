@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Forge.Logging
+namespace Forge.Logging.Abstraction
 {
 
     /// <summary>The ILog interface is use by application to log messages into the underlying logger framework.</summary>
